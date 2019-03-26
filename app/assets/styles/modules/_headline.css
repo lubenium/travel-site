@@ -2,6 +2,8 @@
     font-weight: 300;
     font-size: 1.9rem;
     color: $mainBlue;
+    width: 95%;
+
     @mixin atSmall {
         font-size: 2.875rem;
     }
@@ -13,16 +15,17 @@
     }  
     &--small {
         font-size: 1.4rem;
-        @mixin atSmall {
-            font-size: 1.875rem;
-        }
+       
+        
+        
     }
     &--narrow {
-        width: 500px;
+
         margin: 0 auto 0 auto;
     }
     &--light {
         font-weight: 200;
+        margin-left: 10px;
     }
     strong {
         font-weight: 400;
