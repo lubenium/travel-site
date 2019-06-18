@@ -14,7 +14,7 @@ var config = {
             }
         }
     }
-}
+};
 gulp.task('beginClean', function(){
 return del(['./app/temp/sprite', './app/assets/images/sprites']);
 });
