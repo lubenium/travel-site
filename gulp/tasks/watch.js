@@ -5,9 +5,9 @@ browserSync = require('browser-sync').create();
 gulp.task('watch', function(){
     browserSync.init({
         
-        online: true,
+        /*online: true,
         tunnel: true,
-        logLevel: "debug",
+        logLevel: "debug",*/
         server: {
            baseDir: "./app"
         }
