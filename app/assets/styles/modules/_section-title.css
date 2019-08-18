@@ -25,4 +25,7 @@
             margin-bottom: 0;
         }
     }
+    &--less-margin {
+        margin-bottom: 1.25rem;
+    }
 }
