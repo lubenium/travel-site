@@ -1412,8 +1412,16 @@ background-position: 37.76931216931217% 45.917910447761194%;
     }
 
 .modal__inner {
-        -webkit-transform: translateY(50%);
-                transform: translateY(50%);
+        -webkit-transform: translateY(20%);
+                transform: translateY(20%);
+    }
+
+@media (min-width: 800px){
+
+.modal__inner {
+            -webkit-transform: translateY(50%);
+                    transform: translateY(50%)
+    }
     }
 
 .modal__description {
